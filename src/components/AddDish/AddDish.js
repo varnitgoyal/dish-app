@@ -1,4 +1,5 @@
 import React,{Component} from 'react'
+import './AddDish.css'
 
 
 class AddDish extends Component{
@@ -24,8 +25,8 @@ class AddDish extends Component{
 
     render(){
         return (
-            <div class="add-dish">
-             <form onSubmit={(event)=>this.props.handleAddDish(event,this.state.dish)}> 
+            <div className="add_dish">
+             <form className="add_dish_form" onSubmit={(event)=>this.props.handleAddDish(event,this.state.dish)}> 
         
                
               <label>name</label>
