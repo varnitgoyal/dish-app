@@ -1,0 +1,18 @@
+.dish-list{
+display: flex;
+flex-direction: column;
+
+
+}
+.dishes{
+    display: flex;
+    justify-content: center;
+    margin:10px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+    
+}
+
+input{
+    margin:10px;
+}
